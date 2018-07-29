@@ -15,7 +15,7 @@ namespace GoatBots
 
         static void Main(string[] args)
         {
-            string deckHtml = GetHtml("https://www.cardhoarder.com/d/5b198c2784408");
+            string deckHtml = GetHtml("https://www.cardhoarder.com/d/5b30f9c57ed61");
 
             //string input = Console.ReadLine().Replace(" ", "-");
             string html = GetHtml(String.Format(goatUrl, input));
